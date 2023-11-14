@@ -1,3 +1,20 @@
+"""
+Github -> https://github.com/tech-nub/dsa_interview_prep
+Instagram -> https://www.instagram.com/tech_nub/
+"""
+
+""" 
+
+Problem Description -> https://leetcode.com/problems/trapping-rain-water
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+ALGO:
+
+TBD
+
+"""
+
 class LeetCode42(object):
     def trap(self, height):
         """
