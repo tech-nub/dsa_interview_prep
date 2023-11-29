@@ -11,7 +11,11 @@ Space Complexity: O(1)
 
 ALGO:
 
-TBD
+1. 2 pointers approach.
+2. If we observe, max trapped water is limited by the smaller elevation.
+3. Keep track of max height at the left and right. And keep moving the pointer whichever height is left.
+4. e.g. if left maxHeight is less, then that is the contention point and hence we will move left pointer to the right.
+5. When we are at l position, the water we can trap there will be difference of the max that we have until l and height we have at l. We are subtracting height[l] is because that is where elevation is and we cannot store water until that elevation. We can only store on top of it if there is space.
 
 """
 
