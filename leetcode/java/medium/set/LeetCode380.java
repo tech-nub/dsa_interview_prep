@@ -1,3 +1,25 @@
+"""
+Github -> https://github.com/tech-nub/dsa_interview_prep
+Instagram -> https://www.instagram.com/tech_nub/
+"""
+
+""" 
+
+Problem Description -> https://leetcode.com/problems/insert-delete-getrandom-o1
+Time Complexity: O(1)
+Space Complexity: O(n)
+
+ALGO:
+
+1. Use 1 map and 1 list to implement O(1) for all operation. 
+2. In map, keep a record of value and index where value is being inserted in list.
+3. Removal is tricky. Because removing from middle will cause list elements to shift, so here is how we will remove : 
+(i) move the number from last index to the removed position and update the map. 
+(ii) and then remove from the end of the list which does not need shifting of elements
+4. We can get random from the list using the size of the list
+
+"""
+
 package ds.leetcode.medium.arrays;
 
 import java.util.ArrayList;
